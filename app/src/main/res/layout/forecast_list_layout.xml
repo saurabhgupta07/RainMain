@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@android:dimen/app_icon_size">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:src = "@drawable/ic_launcher"
+    android:id = "@+id/listIconIV"/>
+    <LinearLayout
+        android:id="@+id/listLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:gravity="bottom"
+        android:layout_toRightOf="@id/listIconIV">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listDateTV"
+            android:textSize="18dp"
+            android:text="25 Feb, Monday"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listMainWeatherTV"
+            android:textSize="18dp"
+            android:text="Clear Skies"/>
+        </LinearLayout>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/listTempTV"
+           android:text="14/17"
+           android:textSize="40dp"
+           android:layout_alignParentRight="true"
+           />
+
+</RelativeLayout>

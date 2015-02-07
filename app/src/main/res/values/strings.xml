@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rain Man</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_forecast_detail">ForecastDetailActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="wind_label">Wind</string>
+    <string name="pressure_label">Pressure</string>
+    <string name ="humidity_label">Humidity</string>
+    <string name ="degree_label">O</string>
+    <string name="search_label">Search</string>
+    <string name="_my_location_label">My Location</string>
+    <string name="enable_connection">Please Enable Internet Connection</string>
+    <string name="city_not_found">City Not Found</string>
+</resources>
